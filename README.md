@@ -17,10 +17,11 @@ Take note of the following rules:
 - You may use mixins, resets, and starter code like normalize.css or HTML5 boilerplate.
 - You may use a CSS pre-processor such as SASS/SCSS or LESS. 
 - You may use front end web tooling (webpack, gulp, etc).
+- You may liberally choose options from the above, but note that our preferences are notes [here](https://gitlab.com/barrel/new-developer/issues/2).
 
 ## Instructions
 
-Create a static HTML page that reproduces the design as provided in the [issues](https://gitlab.com/barrel/new-developer/issues/1) section of GitLab. We are looking for feature completeness and an attention to detail, resulting in an accurate implementation of the design built with DRY, responsive, modular, clean, and well-documented code that utilizes modern web development techniques, and is generally viewable on different browsers and screen sizes. Your project will be primarily reviewed in Google Chrome on a Mac and on Android. We are looking for ; i.e. build a few components really well rather tham building the whole.
+Create a static HTML page that reproduces the design as provided in the [issues](https://gitlab.com/barrel/new-developer/issues/1) section of GitLab. We are looking for feature completeness and an attention to detail, resulting in an accurate implementation of the design built with DRY, responsive, modular, clean, and well-documented code that utilizes modern web development techniques, and is generally viewable on different browsers and screen sizes. Your project will be primarily reviewed in Google Chrome on a Mac and on Android.
 
 - All assets, including images, fonts, logos, etc can be found in the `assets` directory.
 - All required fonts can be included directly from Google Fonts (https://fonts.google.com/).
