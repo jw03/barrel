@@ -1,0 +1,29 @@
+{
+  "name": "new-developer",
+  "version": "1.0.0",
+  "description": "This test is designed to assess a candidate's ability to accurately implement a static webpage design using HTML, CSS, and JavaScript. We look for attention to detail, ability to gracefully fill in the gaps where specifications are direction is scant, and adherence to our own (and industry) best practices. Candidates are expected to complete the test mostly from scratch, adhering to a few rules and instructions below.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jw03/barrel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jw03/barrel/issues"
+  },
+  "homepage": "https://github.com/jw03/barrel#readme",
+  "devDependencies": {
+    "node-normalize-scss": "^3.0.0",
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize-scss": "^7.0.0",
+    "normalize.css": "^7.0.0"
+  }
+}

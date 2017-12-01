@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'nav';
+@import 'hero';
+@import 'grid';
+@import '../font-awesome/scss/font-awesome.scss';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
