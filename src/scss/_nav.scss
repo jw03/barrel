@@ -1,0 +1,26 @@
+.navbar {
+    line-height: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #1e1e1e;
+    z-index: 9999;
+    padding: 19px 34px 19px 54px;
+}
+
+.nav-items--social {
+    float: right;
+    display: inline-block;
+    padding-top: 7px;
+        a {
+            text-decoration: none;
+            padding-left: 10px;
+        i {
+            color: $brand-color-tan;
+            font-size: 24px;
+        }
+    }
+}
+
+.brand-logo {
+    height: 38px;
+}
