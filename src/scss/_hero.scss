@@ -1,10 +1,9 @@
 .hero-bg {
     background-image: url('../../src/images/www.knobcreek.com-1293609732325191.jpg');
-    height: 100vh;
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 .hero-text {
@@ -17,16 +16,3 @@
     color: white;
     padding: 100px;
 }
-
-/*.hero-bg-overlay {
-    background-image: url('../../src/images/www.knobcreek.com-1310894113736742.png');
-    height: 100vh;
-    z-index: 9999;
-    right: 30%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}*/
