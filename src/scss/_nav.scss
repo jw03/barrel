@@ -4,6 +4,7 @@
     background-color: #1e1e1e;
     z-index: 9999;
     padding: 19px 34px 19px 54px;
+    overflow: auto;
 }
 
 .nav-items--social {
@@ -16,10 +17,25 @@
         i {
             color: $brand-color-tan;
             font-size: 24px;
+            &:hover {
+                color: $white;
+            }
         }
     }
 }
 
-.brand-logo {
-    height: 38px;
+.navbar__footer {
+    .nav-items--social { float: left; }
+    .brand-logo { float: right; }
+}
+
+.brand-logo { height: 38px; }
+
+.navbar-social-share {
+    text-transform: uppercase;
+    color: $brand-color-tan;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
