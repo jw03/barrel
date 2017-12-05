@@ -1,19 +1,148 @@
-.main-article {
+.article--featured {
 	margin-top: -25vh;
 	background-color: $white;
 }
 
-.main-article--image {
-	background-image: url("../../src/images/pour-mug.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	min-height: 500px;
+.article--featured-image {
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.article-description {
+.article--featured-description {
 	height: 100%;
 	text-align: center;
 	margin: auto;
 	width: 50%;
 	padding: 100px 0;
 }
+
+.article-spacer {
+	padding: 10px;
+}
+
+.article-item--image {
+	background-size: cover;
+	background-position: center center;
+	height: 580px;
+	&--1 {
+		background-image: url("../../src/images/www.knobcreek.com-1550031134660845.jpg");
+	}
+	&--2 {
+		background-image: url("../../src/images/www.knobcreek.com-1564585437648699.jpg");
+	}
+	&--3 {
+		background-image: url("../../src/images/www.knobcreek.com-1550246487292757.jpg");
+	}
+	&--4 {
+		background-image: url("../../src/images/www.knobcreek.com-1550164189475220.jpg");
+	}
+	&--5 {
+		background-image: url("../../src/images/www.knobcreek.com-1550293000153014.jpg");
+	}
+	&--6 {
+		background-image: url("../../src/images/www.knobcreek.com-1550664938574687.jpg");
+	}
+	&--7 {
+		background-image: url("../../src/images/www.knobcreek.com-1550653084056276.jpg");
+	}
+	&--8 {
+		background-image: url("../../src/images/www.knobcreek.com-1550660375610157.jpg");
+	}
+	&--9 {
+		background-image: url("../../src/images/www.knobcreek.com-1550319714280280.jpg");
+	}
+}
+
+.article-item--description {
+	text-align: center;
+	padding: 16px 0 30px;
+	position: absolute;
+	background-color: #f3f1ed;
+	bottom: 0;
+	width: 100%;
+
+	svg {
+		height: 26px;
+	    width: 29px;
+	    background-color: #f3f1ed;
+	    fill: #bd3131;
+	}
+}
+
+.article-item--wrapper {
+	&:hover {
+		.article-item--description, .icon-container, svg {
+			transition: background-color 0.3s ease;
+			background-color: #1e1e1e;
+			p, h2 {
+				color: $white;
+			}
+			.cta {
+				color: $brand-color-red;
+			}
+		}
+		.article-image{
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background-image: linear-gradient(
+			      rgba(0, 0, 0, 0.1),
+			      rgba(0, 0, 0, 0.1)
+			    );
+			    opacity: 1;
+			}
+		}
+	}
+}
+
+.article-item {
+	background-color: $brand-color-tan--light;
+	position: relative;
+	p, a {
+		font-weight: 600;
+	}
+	p {
+		text-transform: uppercase;
+	}
+	h2 {
+		font-size: 19px;
+		width: 80%;
+		padding-bottom: 20px;
+		margin: 0 auto;
+		min-height: 60px;
+	}
+	a {
+		text-decoration: none;
+	}
+	.cta {
+		color: $brand-color-red;
+		margin: 0;
+	}
+}
+
+.icon-container {
+	position: absolute;
+    top: 3px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 17px;
+    background-color: #f3f1ed;
+}
+
+
+a:visited { text-decoration: none; color: inherit; }
+a:hover { text-decoration: none; color: inherit; }
+a:focus { text-decoration: none; color: inherit; }
+a:hover, a:active { text-decoration: none; color: inherit; }
+
+
+
+
+
+
+
