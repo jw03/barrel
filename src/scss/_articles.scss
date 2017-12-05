@@ -3,8 +3,14 @@
 	background-color: $white;
 }
 
+.article--featured-wrapper:hover {
+	.cta {
+		color: #932525;
+	}
+}
+
 .article--featured-image {
-	max-width: 100%;
+	min-width: 100%;
 	max-height: 100%;
 }
 
@@ -12,12 +18,27 @@
 	height: 100%;
 	text-align: center;
 	margin: auto;
-	width: 50%;
+	width: 70%;
 	padding: 100px 0;
+	position: relative;
+	svg {
+		height: 26px;
+	    width: 29px;
+	    fill: #bd3131;
+	}
 }
 
 .article-spacer {
 	padding: 10px;
+}
+
+.article-item--image-featured {
+	background-size: cover;
+	background-position: center center;
+	height: 580px;
+	&--1 {
+		background-image: url('../../src/images/pour-mug.jpg');
+	}
 }
 
 .article-item--image {
@@ -99,14 +120,13 @@
 	}
 }
 
-.article-item {
-	background-color: $brand-color-tan--light;
-	position: relative;
-	p, a {
+article {
+	a {
 		font-weight: 600;
 	}
-	p {
+	.date {
 		text-transform: uppercase;
+		font-weight: 600;
 	}
 	h2 {
 		font-size: 19px;
@@ -120,8 +140,22 @@
 	}
 	.cta {
 		color: $brand-color-red;
+		font-weight: 600;
 		margin: 0;
 	}
+}
+
+.article--featured {
+	h2 {
+		padding-bottom: 0;
+		min-height: 0;
+	}
+}
+
+.article-item {
+	background-color: $brand-color-tan--light;
+	position: relative;
+
 }
 
 .icon-container {
@@ -139,10 +173,3 @@ a:visited { text-decoration: none; color: inherit; }
 a:hover { text-decoration: none; color: inherit; }
 a:focus { text-decoration: none; color: inherit; }
 a:hover, a:active { text-decoration: none; color: inherit; }
-
-
-
-
-
-
-
